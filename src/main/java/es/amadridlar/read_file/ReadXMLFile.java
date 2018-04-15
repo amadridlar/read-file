@@ -14,7 +14,9 @@ public class ReadXMLFile {
 	// METHODS
 	/**
 	 * Read an xml file alocated in the pc. Returns a String with the text in the xml file
-	 * @param xmlPath where the xml file is alocated
+	 * 
+	 * @param xmlPath
+	 *            where the xml file is alocated
 	 * @return String with the xml text. Every line of the file finish with \n\r
 	 */
 	public static String xmlToString(String xmlPath) {
