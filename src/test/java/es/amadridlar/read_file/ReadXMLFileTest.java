@@ -11,7 +11,7 @@ public class ReadXMLFileTest {
 
 	@Test
 	public void test() {
-		String fileString = ReadXMLFile.xmlToString("src\\test\\test.xml");
+		String fileString = ReadXMLFile.xmlToString("src/test/test.xml");
 		
 		Assert.assertEquals("<node1>\r\n" + 
 			"	<node2>\r\n" + 
